@@ -1,0 +1,48 @@
+# ── 数据集 / 模型权重 ──
+data/
+stable-diffusion-v1-5/
+openai/
+*.ckpt
+*.pth
+*.safetensors
+*.bin
+
+# ── 训练输出 ──
+SiameseDiffusion_outputs/
+lightning_logs/
+generated_results/
+image_log/
+checkpoints/
+outputs/
+logs/
+*.log
+
+# ── 图片 ──
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+
+# ── 缓存 ──
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.cache/
+wandb/
+
+# ── 敏感文件 ──
+*.doc
+*.docx
+secret*.txt
+config_local.*
+# ── 系统/编辑器文件 ──
+.vscode/
+__pycache__/
+
+# ── 系统 ──
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
